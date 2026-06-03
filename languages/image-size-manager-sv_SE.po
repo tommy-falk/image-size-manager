@@ -1,0 +1,197 @@
+# Swedish (Sweden) translation for Image Size Manager
+# Copyright (C) 2026 Tommy Falk
+# This file is distributed under the same license as the Image Size Manager plugin.
+# Tommy Falk <hello@tommyfalk.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Image Size Manager 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-03 00:00+0000\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Tommy Falk <hello@tommyfalk.com>\n"
+"Language-Team: Swedish (Sweden)\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: image-size-manager.php
+msgid "Image Size Manager"
+msgstr "Image Size Manager"
+
+#: image-size-manager.php
+msgid "Image Sizes"
+msgstr "Bildstorlekar"
+
+#: image-size-manager.php
+msgid "Image sizes"
+msgstr "Bildstorlekar"
+
+#: image-size-manager.php
+msgid "Control which sizes are generated on upload. Disabled sizes are skipped for future uploads."
+msgstr "Välj vilka storlekar som genereras vid uppladdning. Inaktiverade storlekar hoppas över vid framtida uppladdningar."
+
+#: image-size-manager.php
+msgid "Settings saved."
+msgstr "Inställningar sparade."
+
+#: image-size-manager.php
+msgid "Load disk stats"
+msgstr "Läs in diskstatistik"
+
+#: image-size-manager.php
+msgid "Reload disk stats"
+msgstr "Uppdatera diskstatistik"
+
+#: image-size-manager.php
+msgid "Save settings"
+msgstr "Spara inställningar"
+
+#: image-size-manager.php
+msgid "Active"
+msgstr "Aktiv"
+
+#: image-size-manager.php
+msgid "Size name"
+msgstr "Storleksnamn"
+
+#: image-size-manager.php
+msgid "Dimensions"
+msgstr "Dimensioner"
+
+#: image-size-manager.php
+msgid "Crop"
+msgstr "Beskärning"
+
+#: image-size-manager.php
+msgid "Files"
+msgstr "Filer"
+
+#: image-size-manager.php
+msgid "Disk usage"
+msgstr "Diskutrymme"
+
+#: image-size-manager.php
+msgid "Yes"
+msgstr "Ja"
+
+#: image-size-manager.php
+msgid "Regenerate thumbnails"
+msgstr "Återskapa miniatyrer"
+
+#: image-size-manager.php
+msgid "Re-creates all image sizes for every image in the media library using your current settings above. Disabled sizes are skipped — enabled sizes will be created or replaced."
+msgstr "Återskapar alla bildstorlekar för varje bild i mediebiblioteket utifrån dina aktuella inställningar ovan. Inaktiverade storlekar hoppas över — aktiverade storlekar skapas eller ersätts."
+
+#: image-size-manager.php
+msgid "Regenerate all thumbnails"
+msgstr "Återskapa alla miniatyrer"
+
+#: image-size-manager.php
+msgid "Clean up old files"
+msgstr "Rensa gamla filer"
+
+#: image-size-manager.php
+msgid "Scan disk"
+msgstr "Skanna disk"
+
+#: image-size-manager.php
+msgid "Re-scan disk"
+msgstr "Skanna om disk"
+
+#: image-size-manager.php
+msgid "Scan the media library to see which sizes exist on disk, then choose which ones to permanently delete. Metadata is updated automatically so WordPress doesn't reference missing files."
+msgstr "Skanna mediebiblioteket för att se vilka storlekar som finns på disk och välj vilka som ska raderas permanent. Metadata uppdateras automatiskt så att WordPress inte refererar till saknade filer."
+
+#: image-size-manager.php
+msgid "No generated size files found on disk."
+msgstr "Inga genererade storlekar hittades på disk."
+
+#: image-size-manager.php
+msgid "Select all"
+msgstr "Välj alla"
+
+#: image-size-manager.php
+msgid "Files on disk"
+msgstr "Filer på disk"
+
+#: image-size-manager.php
+msgid "Delete selected files"
+msgstr "Radera valda filer"
+
+#: image-size-manager.php
+msgid "Calculating…"
+msgstr "Beräknar…"
+
+#: image-size-manager.php
+msgid "Fetching images…"
+msgstr "Hämtar bilder…"
+
+#: image-size-manager.php
+msgid "Fetching image list…"
+msgstr "Hämtar bildlista…"
+
+#: image-size-manager.php
+msgid "Scanning…"
+msgstr "Skannar…"
+
+#: image-size-manager.php
+msgid "No images found in the media library."
+msgstr "Inga bilder hittades i mediebiblioteket."
+
+#: image-size-manager.php
+msgid "network error"
+msgstr "nätverksfel"
+
+#: image-size-manager.php
+msgid "This will regenerate thumbnails for all images in the media library. Continue?"
+msgstr "Det här återskapar miniatyrer för alla bilder i mediebiblioteket. Vill du fortsätta?"
+
+#. translators: %d = processed count, %d = total count
+#: image-size-manager.php
+msgid "%d / %d images…"
+msgstr "%d / %d bilder…"
+
+#. translators: %d = processed count
+#: image-size-manager.php
+msgid "Done! %d images processed"
+msgstr "Klart! %d bilder bearbetade"
+
+#. translators: %d = error count
+#: image-size-manager.php
+msgid "— %d error(s), see list below"
+msgstr "— %d fel, se listan nedan"
+
+#. translators: %d = deleted file count
+#: image-size-manager.php
+msgid "Done! %d files deleted"
+msgstr "Klart! %d filer raderade"
+
+#. translators: %d = error count
+#: image-size-manager.php
+msgid "— %d error(s)"
+msgstr "— %d fel"
+
+#. translators: %1$d = size count, %2$s = comma-separated size names
+#: image-size-manager.php
+msgid "Permanently delete all files for %1$d size(s)?\n\n%2$s\n\nThis cannot be undone."
+msgstr "Radera alla filer permanent för %1$d storlek(ar)?\n\n%2$s\n\nDetta kan inte ångras."
+
+#. translators: %d = selected size count
+#: image-size-manager.php
+msgid "%d size(s) selected"
+msgstr "%d storlek(ar) markerade"
+
+#: image-size-manager.php
+msgid "Total disk usage"
+msgstr "Totalt diskutrymme"
+
+#: image-size-manager.php
+msgid "Generated files"
+msgstr "Genererade filer"
+
+#: image-size-manager.php
+msgid "Active sizes"
+msgstr "Aktiva storlekar"
